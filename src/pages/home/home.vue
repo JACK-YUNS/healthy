@@ -30,7 +30,7 @@ import mainContent from '../../components/mainContent/mainContent.vue'
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   .leftSide{
-    width:12.5%;
+    width:15%;
     height:100%;
     position: absolute;
     bottom:0;
@@ -38,7 +38,7 @@ import mainContent from '../../components/mainContent/mainContent.vue'
   }
   .mainContent{
     float: left;
-    width:87%;
+    width:85%;
     position: absolute;
     right:0;
   }

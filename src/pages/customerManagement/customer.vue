@@ -1,8 +1,8 @@
 <template>
   <div id="customer">
-    <div class="customer ">
+    <div class="customer">
         <el-row>
-          <el-col :span="15" :offset="0"><div class="grid-content bg-purple">
+          <el-col :span="24" :offset="0"><div class="grid-content bg-purple">
             <div class="customerBox" >
               <el-input
                 v-for="input in data"
@@ -23,7 +23,7 @@
           </el-col>
         </el-row>
       <el-row>
-        <el-col :span="9" :offset="11">
+        <el-col :span="9" :offset="15">
           <div class="grid-content bg-purple">
             <div class="customerSearch">
               <el-button type="primary" class="customerSearch-button">搜索</el-button>
@@ -246,7 +246,7 @@
   }
   .customerTable{
     position: relative;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 
   }
   .transition-box-title{

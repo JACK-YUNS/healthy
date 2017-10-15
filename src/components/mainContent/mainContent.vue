@@ -1,11 +1,11 @@
 <template>
-  <div class="mainContent">
+  <div>
     <header-section>
 
     </header-section>
-    <v-content>
-      <router-link></router-link>
-    </v-content>
+    <!--<v-content>-->
+      <!--<router-link></router-link>-->
+    <!--</v-content>-->
   </div>
 </template>
 
